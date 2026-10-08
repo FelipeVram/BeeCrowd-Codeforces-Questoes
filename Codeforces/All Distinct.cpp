@@ -6,7 +6,6 @@ int main(){
     cin>>t;
     while (t--)
     {
-        
         int n,i,j;
         cin>>n;
         vector<int> vetor(n);

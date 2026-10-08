@@ -17,7 +17,11 @@ int main()
         {
             for (int j = 1; j < 7; j++)
             {
-                if (matriz[i][j] == '#' && matriz[i + 1][j - 1] == '#' && matriz[i - 1][j - 1] == '#' && matriz[i + 1][j + 1] == '#' && matriz[i+1] [j-1]=='#')
+                if (matriz[i][j] == '#' 
+                    && matriz[i + 1][j - 1] == '#' 
+                    && matriz[i - 1][j - 1] == '#' 
+                    && matriz[i + 1][j + 1] == '#' 
+                    && matriz[i+1] [j-1]=='#')
                 {
                     cout<<i+1<<" "<<j+1<<endl;
                     
